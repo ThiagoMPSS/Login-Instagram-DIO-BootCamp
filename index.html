@@ -8,36 +8,40 @@
   </head>
   <body>
     <div class="wrapper">
-      <section>
-        <img src="imgs/celular.png">
-      </section>
-      <section class="group">
-        <h1>Instagram</h1>
-        <form class="login">
-          <input type="text" placeholder="Nome de usuário ou Email" class="txt_user">
-          <input type="password" placeholder="Senha" class="txt_senha">
-          <button type="submit" class="btn_entrar">Entrar</button>
-        </form>
-        <div class="login">
-          <div></div>
-          <span>ou</span>
-          <div></div>
-        </div>
-        <div class="login">
-          <a href="#">Entrar com o FaceSpy</a>
-        </div>
-        <div class="forgot_password">
-          <a>Esqueceu a Senha?</a>
-        </div>
-      </section>
-      <section class="group">
-        Não tem conta? <a href="#">Cadastre-se</a>
-      </section>
-      <section class="get-app">
-        <p>Obtenha o Aplicativo</p>
-        <a href="#"></a>
-        <a href="#"></a>
-      </section>
+      <div class="celular-div">
+        <img src="imgs/celular.png" alt="celular">
+      </div>
+      <div class="login-container">
+        <section class="group-login">
+          <h1>Só Que Não</h1>
+          <form class="login-form">
+            <div class="txt_input"><input type="text" placeholder="Nome de usuário ou Email" name="txt_user"></div>
+            <div class="txt_input"><input type="password" placeholder="Senha" name="txt_senha"></div>
+            <button type="submit" class="btn_entrar">Entrar</button>
+          </form>
+          <div class="login-or">
+            <div></div>
+            <span>ou</span>
+            <div></div>
+          </div>
+          <div class="login-with">
+            <span></span><a href="#">Entrar com o FaceSpy</a>
+          </div>
+          <div class="forgot_password">
+            <a href="#">Esqueceu a Senha?</a>
+          </div>
+        </section>
+        <section class="group-signup">
+          Não tem conta? <a href="#">Cadastre-se</a>
+        </section>
+        <section class="get-app">
+          <p>Obtenha o Aplicativo</p>
+          <div>
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>

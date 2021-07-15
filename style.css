@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: #0d1117;
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+}
+
+.celular-div {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.celular-div img {
+    width: 34rem;
+}
+
+.group-login {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em;
+}
+
+.login-container h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 5em;
+    color: white;
+}
+
+.txt_input {
+    background: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 0.5em;
+}
+
+.login-form input {
+    width: 100%;
+    border-style: none;
+}
+
+.login-form button {
+    color: black;
+    margin-top: 0.5em;
+    margin-bottom: 10px;
+}
+
+.login-or {
+    display: flex;
+}
+
+.login-or div {
+    margin: 0 1em;
+    border-top: 1px solid gray;
+    height: 1px;
+    width: 50%;
+    align-self: center;
+}
+
+.login-with {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.login-with span {
+    background-image: url(./imgs/FaceSpy.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+}
+
+.group-login, .group-signup {
+    background: #161b22;
+    border-radius: 2px;
+    border: 1px solid #30363d;
+    height: fit-content;
+    margin-top: 1em;
+}
+
+.group-signup {
+    padding: 2em;
+    text-align: center;
+}
+
+.group-signup a {
+    color: rgb(0, 195, 209);
+}
+
+.forgot_password {
+    font-size: 12px;
+}
+
+.login-with, .forgot_password {
+    margin-top: 1em;
+}
+
+.login-with a, .forgot_password a {
+    color: #16a5f7;
+}
+
+.get-app {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.get-app div {
+    justify-content: center;
+    display: flex;
+}
+
+.get-app a:first-of-type {
+    background: url(./imgs/download_playstore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 136px;
+    height: 40px;
+    margin-right: 6px;
+}
+
+.get-app a:last-of-type {
+    background: url(./imgs/download_appstore.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 136px;
+    height: 40px;
+}
