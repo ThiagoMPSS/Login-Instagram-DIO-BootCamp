@@ -57,6 +57,10 @@ body {
     margin: 0.5em;
 }
 
+.txt_input input:focus {
+	outline: none;
+}
+
 .login-form input {
     width: 100%;
     border-style: none;
