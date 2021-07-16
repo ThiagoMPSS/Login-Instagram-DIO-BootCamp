@@ -60,6 +60,7 @@ body {
 .login-form input {
     width: 100%;
     border-style: none;
+    color: black;
 }
 
 .btn_entrar {
@@ -189,4 +190,4 @@ body {
     .wrapper {
         margin: 0px;
     }
-}
+}()
